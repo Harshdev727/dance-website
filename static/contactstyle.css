@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Krona+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+  margin-top: 15px;
+  text-align: center; 
+  font-family: 'Krona One', sans-serif; 
+}
+.myform{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.myinput {
+    width: 40%;
+    margin: 8px;
+    padding: 8px;
+    font-size: 1.1rem;
+    border: 2px solid dodgerblue;
+    border-radius: 8px;
+    box-shadow: 2px 2px blue;
+    outline: none;
+}
+
+div.contactform{
+  margin:10px 0px;
+  height: 65vh;
+}
+
+.btn{
+  padding:8px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  color:white;
+  background-color: blueviolet;
+  border: 2px solid blue;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+
+}

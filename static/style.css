@@ -1,0 +1,146 @@
+/* Css Reset */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Krona+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: blueviolet;
+    padding: 4px 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Itim', cursive;
+    font-size: 1.5rem;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding:19px 20px;
+    color:white;
+
+}
+#navbar ul li a:hover{
+    color:black;
+}
+
+ul div#logo{
+    width:100px;
+    margin: 0px 20px;
+
+}
+ul div#logo img{
+    height: 80px;
+    filter: invert(1);
+
+}
+
+#introSection{
+    background: center / cover no-repeat url("/static/dance1.jpg");
+    height: 420px;
+    opacity:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Krona One', sans-serif;
+    font-size: 2.3rem;
+    color:white;
+    flex-direction: column;
+    
+
+}
+#introSection div.small{
+    text-decoration: underline;
+    font-size: 1.7rem;
+}
+
+#missionSection{
+    
+    margin-top: 20px;
+}
+#missionSection div{
+    display: flex;
+
+
+}
+#missionSection div.card{
+    display: flex;
+    flex-direction: column;
+    border:2px solid black;
+    border-radius: 10px;
+    margin: 30px;
+    width: 33%;
+    background-color: violet;
+}
+#missionSection div.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#missionSection div.card h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Pacifico', cursive;
+}
+#missionSection div.card-img{
+    margin-top: 11px;
+}
+#missionSection div.card-img img{
+    height: 180px;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+#missionSection div.card-content p{
+    padding: 20px;
+    font-size: 1.1rem;
+    font-family: 'Itim', cursive;
+}
+
+#sponsorsSection{
+    height: 400px;
+    background-color: greenyellow;    
+}
+
+#sponsorsSection h2{
+    padding: 13px 5px ;
+}
+
+#sponsorsSection div.sponsors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+
+}
+.sponsorimg{
+    height: 170px;
+    padding: 10px 20px;
+}
+
+ h2{
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.8rem;
+}
+
+#footer{
+    height: 60px;
+    background-color: brown;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Itim', cursive;
+    
+}

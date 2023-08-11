@@ -1,0 +1,54 @@
+//- index.pug
+doctype html
+html
+  head
+    title Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul
+            div#logo 
+                img(src="../static/img/logo.png", alt="dance logo image")
+            li #[a(href="/") Home]
+            li #[a(href="/") About Us]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info] 
+            li #[a(href="/") Contact Us]
+
+    section#introSection
+        div   Welcome to Remo's Dance Academy
+        div.small   Fir Nachega India
+    section#missionSection
+        h2  Our Mission
+        div
+          div.card 
+            h3 Anybody can Dance
+            div.card-body 
+              div.card-img
+                img(src="/static/img/dance.png") 
+              div.card-content
+                p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, natus qui necessitatibus hic nulla id vitae rerum! Numquam, veritatis possimus.
+          div.card 
+            h3 Age no Matter for Dance
+            div.card-body 
+              div.card-img
+                img(src="/static/img/dance2.png") 
+              div.card-content
+                p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, natus qui necessitatibus hic nulla id vitae rerum! Numquam, veritatis possimus.
+          div.card 
+            h3 Training with best dancers
+            div.card-body 
+              div.card-img
+                img(src="/static/img/dance3.png") 
+              div.card-content
+                p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, natus qui necessitatibus hic nulla id vitae rerum! Numquam, veritatis possimus.
+    section#sponsorsSection
+        h2  Our Sponsors
+        div.sponsors
+          img(src="/static/img/logo1.png", alt="pur sponsor image", Class="sponsorimg")
+          img(src="/static/img/logo2.png", alt="pur sponsor image", Class="sponsorimg")
+          img(src="/static/img/logo3.png", alt="pur sponsor image", Class="sponsorimg")
+          img(src="/static/img/logo4.png", alt="pur sponsor image", Class="sponsorimg")
+    section#footer
+      |   Copyright &copy; 2021 | All rights reserved 
